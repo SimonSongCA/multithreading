@@ -29,13 +29,10 @@
 public class Main2 {
 
     public static void main(String [] args) {
-        Thread thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                //Code that will run in a new thread
-                throw new RuntimeException("Intentional Exception");
-            }
-        });
+        // the second way to create a new thread:
+        // create a concrete new class that extends the Thread Class.
+        // The Thread implements the interface Runnable so there is no need to create the Runnable again.
+        Thread thread = new NewThread();
 
         thread.setName("Misbehaving thread");
 
@@ -48,6 +45,16 @@ public class Main2 {
             }
         });
         thread.start();
+
+    }
+
+    private static class NewThread extends Thread {
+        @Override
+        public void run() {
+            //Code that will run in a new thread
+//            throw new RuntimeException("Intentional Exception");
+            System.out.println("Hello from " + this.getName());
+        }
 
     }
 
