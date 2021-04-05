@@ -15,3 +15,4 @@ To test the throughput of ThroughputHttpServer.java using JMeter:
 2. Go to the folder apache-jmeter-5.4/bin and run jmter.exe
 3. Open the configuration file 'performance_test_plan.jmx' of JMeter in the directory /src/performanceOptimization/resources/performance_test_plan.jmx
 4. Click the ‘Start' button of the JMeter app. The real-time test result will show in the 'Summary Report' section under the 'While Controller' tab.
+The download link of Apache JMeter is: https://downloads.apache.org/jmeter/binaries/ . The project uses apache-jmeter-5.4.tgz.sha512 for the implementation.
