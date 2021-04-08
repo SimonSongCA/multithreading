@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0136efa1-16b0-4075-b5da-b030548336a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Concurrency/MinMaxMetrics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/ThroughputHttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/ThroughputHttpServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/ThroughputHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/ThroughputHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/resources/performance_test_plan.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/resources/performance_test_plan.jmx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +81,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609637765805</updated>
-      <workItem from="1617572702701" duration="4314000" />
+      <workItem from="1617572702701" duration="7966000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
