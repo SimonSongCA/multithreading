@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="api">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/out/production/multithreading/performanceOptimization/apache-jmeter-5.4/docs/api" />
+      <root url="file://$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>
