@@ -1,4 +1,4 @@
-# udemy-multithreading
+# multithreading
 
 This is a repository including some projects of multithreading, concurrency, and performance optimization in Java. Contents of the repository are subject to change.
 
