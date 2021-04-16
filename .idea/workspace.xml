@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0136efa1-16b0-4075-b5da-b030548336a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdvancedLocking/ReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterThreadCommunication/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterThreadCommunication/MatricesGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2$NewThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$AscendingHackerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$DescendingHackerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$HackerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$PoliceThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$Vault.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/ImageProcessing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/ThroughputHttpServer$WordCountHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/ThroughputHttpServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/resources/performance_test_plan.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/resources/performance_test_plan.jmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/threadCoordination/DaemonThread$LongComputationTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/threadCoordination/DaemonThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/threadCoordination/JoiningThreads$FactorialThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/threadCoordination/JoiningThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/threadCoordination/ThreadInterrupt$LongComputationTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/threadCoordination/ThreadInterrupt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/asf-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/asf-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/jmeter_square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/jmeter_square.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/screenshots/distributed-jmeter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/screenshots/distributed-jmeter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/screenshots/distributed-names.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/images/screenshots/distributed-names.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
