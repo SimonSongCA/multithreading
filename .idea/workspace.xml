@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0136efa1-16b0-4075-b5da-b030548336a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LockFree_AtomicInteger_AtomicReference/Atomic_Reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LockFree_AtomicInteger_AtomicReference/Atomic_Reference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="Atomic_Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LockFree_AtomicInteger_AtomicReference.Atomic_Integer" />
+      <option name="MAIN_CLASS_NAME" value="LockFree.Atomic_Integer" />
       <module name="multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LockFree_AtomicInteger_AtomicReference.*" />
+          <option name="PATTERN" value="LockFree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="Atomic_Reference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LockFree_AtomicInteger_AtomicReference.Atomic_Reference" />
+      <option name="MAIN_CLASS_NAME" value="LockFree.Atomic_Reference" />
       <module name="multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LockFree_AtomicInteger_AtomicReference.*" />
+          <option name="PATTERN" value="LockFree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618699714355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lock free algorithms with Atomic Integer and Atomic Reference implementations.">
+      <created>1618702294979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618702294979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +197,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lok free algorithms with Atomic Integer and Atomic Reference implementations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lok free algorithms with Atomic Integer and Atomic Reference implementations." />
+    <MESSAGE value="Lock free algorithms with Atomic Integer and Atomic Reference implementations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lock free algorithms with Atomic Integer and Atomic Reference implementations." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

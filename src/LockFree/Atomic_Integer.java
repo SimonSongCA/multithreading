@@ -1,4 +1,4 @@
-package LockFree_AtomicInteger_AtomicReference;
+package LockFree;
 import java.util.concurrent.atomic.AtomicInteger;
 public class Atomic_Integer {
     public static void main(String[] args) throws InterruptedException {
