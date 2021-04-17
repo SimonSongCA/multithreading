@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0136efa1-16b0-4075-b5da-b030548336a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterThreadCommunication/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterThreadCommunication/MatricesGenerator.java" afterDir="false" />
+    <list default="true" id="0136efa1-16b0-4075-b5da-b030548336a9" name="Default Changelist" comment="InterThread Communication example with back pressure as an assurance to prevent out of p=memory exceptions. Run MatricesGenerator.java then run MainApplication.java to see the result.">
+      <change afterPath="$PROJECT_DIR$/.idea/androidDexCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AtomicInteger_AtomicReference/Atomic_Integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AtomicInteger_AtomicReference/Atomic_Reference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2$NewThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$AscendingHackerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$DescendingHackerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$HackerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$PoliceThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$Vault.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/apache-jmeter-5.4/docs/api/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/apache-jmeter-5.4/docs/api/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/api/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/api/serialized-form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +60,64 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/multithreading" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AtomicInteger_AtomicReference" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19617225" />
+    <property name="settings.editor.selected.configurable" value="android.dex.compiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AtomicInteger_AtomicReference" />
+      <recent name="$PROJECT_DIR$/src/LockFreeAlgorithms-DataStrucutresAndTechniques" />
+      <recent name="$PROJECT_DIR$/src/InterThreadCommunication" />
       <recent name="$PROJECT_DIR$/out/production/multithreading" />
       <recent name="$PROJECT_DIR$/src/AdvancedLocking" />
-      <recent name="$PROJECT_DIR$/src/performanceOptimization/resources" />
-      <recent name="$PROJECT_DIR$/src/performanceOptimization" />
-      <recent name="$PROJECT_DIR$/src/threadCoordination" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLock">
+  <component name="RunManager" selected="Application.Atomic_Integer">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atomic_Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LockFree_AtomicInteger_AtomicReference.Atomic_Integer" />
+      <module name="multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LockFree_AtomicInteger_AtomicReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atomic_Reference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LockFree_AtomicInteger_AtomicReference.Atomic_Reference" />
+      <module name="multithreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LockFree_AtomicInteger_AtomicReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdvancedLocking.ReadWriteLock" />
       <module name="multithreading" />
@@ -85,21 +138,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Atomic_Integer" />
+        <item itemvalue="Application.Atomic_Reference" />
         <item itemvalue="Application.ReadWriteLock" />
       </list>
     </recent_temporary>
@@ -126,6 +168,9 @@
       <workItem from="1618352384898" duration="2370000" />
       <workItem from="1618355870075" duration="5495000" />
       <workItem from="1618367619405" duration="310000" />
+      <workItem from="1618696833359" duration="889000" />
+      <workItem from="1618697741632" duration="13000" />
+      <workItem from="1618697808057" duration="114000" />
     </task>
     <servers />
   </component>
