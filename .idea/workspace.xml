@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0136efa1-16b0-4075-b5da-b030548336a9" name="Default Changelist" comment="InterThread Communication example with back pressure as an assurance to prevent out of p=memory exceptions. Run MatricesGenerator.java then run MainApplication.java to see the result.">
-      <change afterPath="$PROJECT_DIR$/.idea/androidDexCompiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AtomicInteger_AtomicReference/Atomic_Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AtomicInteger_AtomicReference/Atomic_Reference.java" afterDir="false" />
+    <list default="true" id="0136efa1-16b0-4075-b5da-b030548336a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2$NewThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$AscendingHackerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$DescendingHackerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$HackerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$PoliceThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3$Vault.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/apache-jmeter-5.4/docs/api/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multithreading/performanceOptimization/apache-jmeter-5.4/docs/api/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/api/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/performanceOptimization/apache-jmeter-5.4/docs/api/serialized-form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/AdvancedLocking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Atomic_Integer">
+  <component name="RunManager" selected="Application.Atomic_Reference">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -140,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Atomic_Integer" />
         <item itemvalue="Application.Atomic_Reference" />
+        <item itemvalue="Application.Atomic_Integer" />
         <item itemvalue="Application.ReadWriteLock" />
       </list>
     </recent_temporary>
@@ -172,6 +155,21 @@
       <workItem from="1618697741632" duration="13000" />
       <workItem from="1618697808057" duration="114000" />
     </task>
+    <task id="LOCAL-00001" summary="Lok free algorithms with Atomic Integer and Atomic Reference implementations.">
+      <created>1618699543584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618699543584</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lok free algorithms with Atomic Integer and Atomic Reference implementations.">
+      <created>1618699714355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618699714355</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +186,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lok free algorithms with Atomic Integer and Atomic Reference implementations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lok free algorithms with Atomic Integer and Atomic Reference implementations." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

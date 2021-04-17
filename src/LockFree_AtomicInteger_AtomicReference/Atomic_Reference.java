@@ -9,8 +9,8 @@ import java.util.concurrent.locks.LockSupport;
 
 public class Atomic_Reference {
     public static void main(String[] args) throws InterruptedException {
-        //StandardStack<Integer> stack = new StandardStack<>();
-        LockFreeStack<Integer> stack = new LockFreeStack<>();
+        StandardStack<Integer> stack = new StandardStack<>();
+//        LockFreeStack<Integer> stack = new LockFreeStack<>();
         Random random = new Random();
 
         for (int i = 0; i < 100000; i++) {
@@ -48,9 +48,9 @@ public class Atomic_Reference {
             thread.start();
         }
 
-        Thread.sleep(10000);
+        Thread.sleep(1000);
 
-        System.out.println(String.format("%,d operations were performed in 10 seconds ", stack.getCounter()));
+        System.out.println(String.format("%,d operations were performed in 1 second ", stack.getCounter()));
     }
 
     public static class LockFreeStack<T> {
